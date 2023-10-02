@@ -13,7 +13,6 @@ import spotify from "/public/icons/spotify-small.png";
 import soundcloud from "/public/icons/soundcloud-small.png";
 import vimeo from "/public/icons/vimeo-small.png";
 import youtube from "/public/icons/youtube-small.png";
-import { supabase } from "../../supabase";
 import styles from "./page.module.css";
 
 export default function Addsubscriptions() {
