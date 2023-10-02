@@ -1,4 +1,3 @@
-import { type } from "os";
 import React from "react";
 import Link from "next/link";
 import Loadingbackground from "../components/LoadingBackground";

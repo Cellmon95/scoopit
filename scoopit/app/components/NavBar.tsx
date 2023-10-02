@@ -5,7 +5,7 @@ import Image from "next/image";
 import NotificationMenu from "./NotificationMenu";
 import MainMenu from "./MainMenu";
 import AddSubscriptionMenu from "./AddSubscriptionMenu";
-import { MouseEventHandler, useState } from "react";
+import { useState } from "react";
 
 export default function NavBar() {
   let [hideMainMenu, setHideMainMenu] = useState(true);

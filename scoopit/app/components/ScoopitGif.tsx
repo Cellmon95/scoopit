@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import scoopitGif from "/public/scoopit.gif";
-import styles from "./BackArrow.module.css";
+import scoopitGif from "public/scoopit.gif";
 
 export default function Scoopitgif() {
   return (

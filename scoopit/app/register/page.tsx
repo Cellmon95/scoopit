@@ -1,8 +1,6 @@
 "use client";
-import { type } from "os";
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import BackArrow from "../components/BackArrow";
 import styles from "./page.module.css";
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";

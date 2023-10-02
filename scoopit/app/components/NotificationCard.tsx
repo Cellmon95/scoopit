@@ -1,6 +1,5 @@
 "use client";
 
-import menuStyles from "./Menu.module.css";
 import styles from "./NotificationCard.module.css";
 import Image from "next/image";
 

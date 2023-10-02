@@ -1,8 +1,7 @@
 // components/MyLineChart.tsx
 "use client";
 import styles from "./Menu.module.css";
-import Image from "next/image";
-import { SetStateAction, useState } from "react";
+import { useState } from "react";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 import DatePicker from "react-datepicker";
@@ -12,7 +11,6 @@ import "react-datepicker/dist/react-datepicker.css";
 
 export default function AddSubscriptionMenu(prop: MenuProp) {
   const [startDate, setStartDate] = useState<Date>(new Date());
-  let [date, setDate] = useState<Date>(new Date());
   const options = ["one", "two", "three"];
   const defaultOption = options[0];
   return (

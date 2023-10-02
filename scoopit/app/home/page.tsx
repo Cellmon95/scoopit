@@ -1,31 +1,13 @@
 "use client";
-import {
-  Session,
-  createClientComponentClient,
-} from "@supabase/auth-helpers-nextjs";
-import { cookies } from "next/headers";
+import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 import PieChart from "../components/PieChart";
 import SearchBar from "../components/SearchBar";
 import SubscriptionPreviewCard from "../components/SubscriptionPreviewCard";
 import styles from "./home.module.css";
 import Image from "next/image";
-import {
-  Dispatch,
-  MouseEvent,
-  SetStateAction,
-  useCallback,
-  useEffect,
-  useState,
-} from "react";
-import { EventEmitter } from "stream";
-import { elements } from "chart.js";
+import { MouseEvent, useEffect, useState } from "react";
 import { ISubscription } from "../components/SubscriptionPreviewCard";
 import NavBar from "../components/NavBar";
-import Menu from "../components/MainMenu";
-import AddSubscription from "../components/AddSubscriptionMenu";
-import NotificationMenu from "../components/NotificationMenu";
-import MainMenu from "../components/MainMenu";
-import AddSubscriptionMenu from "../components/AddSubscriptionMenu";
 
 enum SubscriptionCategory {
   music = 1,

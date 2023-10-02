@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./SubscriptionPreviewCard.module.css";
-import { useEffect } from "react";
 
 export interface ISubscription {
   name: string;
