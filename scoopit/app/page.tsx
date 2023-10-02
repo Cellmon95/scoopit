@@ -1,4 +1,3 @@
-import { StartPage } from "./start/page";
 import Welcome from "./welcome/page";
 
 export default function Home() {
